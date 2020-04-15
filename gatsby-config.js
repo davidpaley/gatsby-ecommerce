@@ -139,13 +139,46 @@ module.exports = {
         type: 'top',
         children: [
           {
+            name: "Almacen",
+            type: 'header',
+            handle: '',
+            link: '/collection/almacen',
+            children: [
+              {
+                name: 'Galletitas',
+                type: 'collection',
+                handle: 'galletitas',
+                link: '/collection/galletitas',
+              },
+            ],
+          },
+          {
+            name: "Fiambrería",
+            type: 'header',
+            handle: '',
+            link: '/collection/fiambreria',
+            children: [
+              {
+/*                 name: 'Fiambres',
+                type: 'collection',
+                handle: 'galletitas',
+                link: '/collection/fiambreria', */
+              },
+            ],
+          },
+          {
             name: "Bebidas",
             type: 'header',
             handle: '',
-            link: '/collection/bebidas',
             children: [
               {
-                name: 'Coca Cola',
+                name: 'Bebidas Con Alcohol',
+                type: 'collection',
+                handle: 'bebidasca',
+                link: '/collection/bebidasca',
+              },
+              {
+                name: 'Bebidas Sin Alcohol',
                 type: 'collection',
                 handle: 'bebidas',
                 link: '/collection/bebidas',
@@ -153,13 +186,15 @@ module.exports = {
             ],
           },
           {
-            name: "Men's",
+            name: "Limpieza",
             type: 'header',
+            link: '/collection/limpieza',
             children: [
               {
-                name: 'Test',
+                name: 'Detegergente',
                 type: 'collection',
-                handle: 'test-collection',
+                handle: 'limpieza',
+                link: '/collection/limpieza',
               },
               {
                 name: 'Garden',
@@ -309,7 +344,7 @@ module.exports = {
               },
             ],
           },
-          { name: 'Blog', type: 'blog', handle: 'news' },
+          //{ name: 'Blog', type: 'blog', handle: 'news' },
         ],
       }),
       footerLinks: [
