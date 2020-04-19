@@ -42,7 +42,7 @@ module.exports = {
           type: 'carousel',
           children: [
             {
-              name: 'almacen',
+              name: 'Almacen',
               type: 'product',
               handle: 'almacen',
               textColor: 'black',
@@ -106,13 +106,19 @@ module.exports = {
             link: '/collection/almacen',
             children: [
               {
-                name: 'Galletitas',
+                name: 'Almacen',
                 type: 'collection',
-                handle: 'galletitas',
-                link: '/collection/galletitas',
+                handle: 'almacen',
+                link: '/collection/almacen',
               },
               {
-                name: 'lacteos',
+                name: 'Galletitas',
+                type: 'collection',
+                handle: 'variedadgalletitas',
+                link: '/collection/variedadgalletitas',
+              },
+              {
+                name: 'Lacteos',
                 type: 'collection',
                 handle: 'lacteos',
                 link: '/collection/lacteos',
