@@ -111,20 +111,20 @@ module.exports = {
                 handle: 'galletitas',
                 link: '/collection/galletitas',
               },
+              {
+                name: 'lacteos',
+                type: 'collection',
+                handle: 'lacteos',
+                link: '/collection/lacteos',
+              },
+              
             ],
           },
           {
             name: "Fiambrería",
-            type: 'header',
+            type: 'collection',
             handle: 'fiambre',
-            children: [
-              {
-                name: 'Fiambres',
-                type: 'collection',
-                handle: 'fiambre',
-                link: '/collection/fiambre', 
-              },
-            ],
+            link: '/collection/fiambre', 
           },
           {
             name: "Bebidas",
@@ -134,8 +134,8 @@ module.exports = {
               {
                 name: 'Bebidas Con Alcohol',
                 type: 'collection',
-                handle: 'bebidasca',
-                link: '/collection/bebicas-alcoholicas',
+                handle: 'vinos  ',
+                link: '/collection/vinos',
               },
               {
                 name: 'Bebidas Sin Alcohol',
@@ -147,163 +147,10 @@ module.exports = {
           },
           {
             name: "Limpieza",
-            type: 'header',
+            type: 'collection',
+            handle: 'limpiezaart',
             link: '/collection/limpiezaart',
-            children: [
-              {
-                name: 'Detegergente',
-                type: 'collection',
-                handle: 'limpieza',
-                link: '/collection/limpieza',
-              },
-              {
-                name: 'Garden',
-                type: 'collection',
-                handle: 'garden',
-              },
-              {
-                name: 'Apparel',
-                type: 'collection',
-                handle: 'apparel',
-              },
-              {
-                name: 'External links',
-                type: 'header',
-                children: [
-                  {
-                    name: 'External link 2',
-                    type: 'external',
-                    link: 'https://amazon.com',
-                  },
-                  {
-                    name: 'External link 3',
-                    type: 'external',
-                    link: 'https://amazon.com',
-                  },
-                  {
-                    name: 'External link 2',
-                    type: 'external',
-                    link: 'https://amazon.com',
-                  },
-                  {
-                    name: 'External link 3',
-                    type: 'external',
-                    link: 'https://amazon.com',
-                  },
-                  {
-                    name: 'External link 2',
-                    type: 'external',
-                    link: 'https://amazon.com',
-                  },
-                  {
-                    name: 'External link 3',
-                    type: 'external',
-                    link: 'https://amazon.com',
-                  },
-                  {
-                    name: 'External link 2',
-                    type: 'external',
-                    link: 'https://amazon.com',
-                  },
-                  {
-                    name: 'External link 3',
-                    type: 'external',
-                    link: 'https://amazon.com',
-                  },
-                  {
-                    name: 'External link 2',
-                    type: 'external',
-                    link: 'https://amazon.com',
-                  },
-                  {
-                    name: 'External link 3',
-                    type: 'external',
-                    link: 'https://amazon.com',
-                  },
-                  {
-                    name: 'External link 2',
-                    type: 'external',
-                    link: 'https://amazon.com',
-                  },
-                  {
-                    name: 'External link 3',
-                    type: 'external',
-                    link: 'https://amazon.com',
-                  },
-                  {
-                    name: 'External link 2',
-                    type: 'external',
-                    link: 'https://amazon.com',
-                  },
-                  {
-                    name: 'External link 3',
-                    type: 'external',
-                    link: 'https://amazon.com',
-                  },
-                  {
-                    name: 'External link 2',
-                    type: 'external',
-                    link: 'https://amazon.com',
-                  },
-                  {
-                    name: 'External link 3',
-                    type: 'external',
-                    link: 'https://amazon.com',
-                  },
-                  {
-                    name: 'External link 2',
-                    type: 'external',
-                    link: 'https://amazon.com',
-                  },
-                  {
-                    name: 'External link 3',
-                    type: 'external',
-                    link: 'https://amazon.com',
-                  },
-                  {
-                    name: 'External link 2',
-                    type: 'external',
-                    link: 'https://amazon.com',
-                  },
-                  {
-                    name: 'External link 3',
-                    type: 'external',
-                    link: 'https://amazon.com',
-                  },
-                  {
-                    name: 'External link 2',
-                    type: 'external',
-                    link: 'https://amazon.com',
-                  },
-                  {
-                    name: 'External link 3',
-                    type: 'external',
-                    link: 'https://amazon.com',
-                  },
-                  {
-                    name: 'External link 2',
-                    type: 'external',
-                    link: 'https://amazon.com',
-                  },
-                  {
-                    name: 'External link 3',
-                    type: 'external',
-                    link: 'https://amazon.com',
-                  },
-                  {
-                    name: 'External link 2',
-                    type: 'external',
-                    link: 'https://amazon.com',
-                  },
-                  {
-                    name: 'External link 3',
-                    type: 'external',
-                    link: 'https://amazon.com',
-                  },
-                ],
-              },
-            ],
-          },
+            },
           //{ name: 'Blog', type: 'blog', handle: 'news' },
         ],
       }),
