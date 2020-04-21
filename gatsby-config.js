@@ -28,10 +28,12 @@ module.exports = {
       workingDays: 'Lun - Sab',
       workingHours: '8AM - 13AM / 17PM - 21PM',
       socialNetworks: [
+        'https://facebook.com',
       ],
-      payments: ['Mercado Pago', 'Efectivo'],
-      // For available social share buttons see: https://github.com/nygardk/react-share
+      payments: [ ],
       shareButtons: [
+        'Facebook',
+        'Whatsapp',
       ],
       googleAnalyticsId: 'UA-141525658-5',
       //
@@ -43,34 +45,34 @@ module.exports = {
           children: [
             {
               name: 'Almacen',
-              type: 'product',
-              handle: 'almacen',
+              type: 'collection',
+              handle: 'elalmacendecoco',
               textColor: 'black',
               textBgColor: 'white',
             },
             {
-              name: 'mercadopago',
-              type: 'product',
-              handle: 'mercadopago',
+              name: 'Bebidas',
+              type: 'collection',
+              handle: 'bebidas-sin-alcohol',
               textColor: 'black',
-              textBgColor: 'primary',
+              textBgColor: 'white',
+              link: '/collection/bebidas-sin-alcohol',
             },
             {
-              name: 'drinksgaseosas',
+              name: 'Fiambre',
               type: 'collection',
-              handle: 'drinksgaseosas',
+              handle: 'fiambre',
               textColor: 'black',
-              textBgColor: 'primary',
-              link: '/collection/drinksgaseosas',
-            },
+              textBgColor: 'white',
+            }
           ],
         },
         {
-          name: 'variedadgalletitas',
+          name: 'Galletitas',
           type: 'collection',
           handle: 'variedadgalletitas',
-          textColor: 'white',
-          textBgColor: 'primary',
+          textColor: 'black',
+          textBgColor: 'white',
         },
         {
           name: 'lacteos',
@@ -80,18 +82,18 @@ module.exports = {
           textBgColor: 'white',
         },
         {
-          name: 'fiambre',
+          name: 'Mercado Pago',
           type: 'collection',
-          handle: 'fiambre',
-          textColor: 'white',
-          textBgColor: 'primary',
+          handle: 'mercadopago',
+          textColor: 'black',
+          textBgColor: 'white',
         },
         {
           name: 'limpiezaart',
           type: 'collection',
           handle: 'limpiezaart',
-          textColor: 'white',
-          textBgColor: 'primary',
+          textColor: 'black',
+          textBgColor: 'white',
         },
       ],
       // Menu types: "header", "collection", "product", "link"
@@ -102,7 +104,7 @@ module.exports = {
           {
             name: "Almacen",
             type: 'header',
-            handle: '',
+            handle: 'almacen',
             link: '/collection/almacen',
             children: [
               {
@@ -140,14 +142,14 @@ module.exports = {
               {
                 name: 'Bebidas Con Alcohol',
                 type: 'collection',
-                handle: 'vinos  ',
-                link: '/collection/vinos',
+                handle: 'bebidas-con-alcohol',
+                link: '/collection/bebidas-con-alcohol',
               },
               {
                 name: 'Bebidas Sin Alcohol',
                 type: 'collection',
-                handle: 'drinksgaseosas',
-                link: '/collection/drinksgaseosas',
+                handle: 'bebidas-sin-alcohol',
+                link: '/collection/bebidas-sin-alcohol',
               },
             ],
           },
@@ -166,7 +168,7 @@ module.exports = {
           link: '/pages/about',
         },
         {
-          name: 'Terms of Service',
+          name: 'Políticas de Envío',
           link: '/policy/termsOfService',
         },
         {
@@ -174,12 +176,12 @@ module.exports = {
           link: '/policy/privacyPolicy',
         },
         {
-          name: 'Refunds',
-          link: '/policy/refundPolicy',
+          name: '',
+          link: '',
         },
         {
-          name: 'External',
-          link: 'https://amazon.com',
+          name: '',
+          link: '',
         },
       ],
       locales: 'en-US',
