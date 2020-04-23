@@ -19,7 +19,7 @@ module.exports = {
     siteUrl: 'https://demo.gatsbystorefront.com',
     gatsbyStorefrontConfig: {
       storeName: 'Almacen COCO',
-      storeDescription: 'Demo store description',
+      storeDescription: 'Un almacen tipico de barrio modernizado',
       email: '',
       company: 'Almacen COCO',
       location: 'Ciudad Autónoma de Buenos Aires, CABA, Argentina',
@@ -27,14 +27,9 @@ module.exports = {
       phone: '45230921',
       workingDays: 'Lun - Sab',
       workingHours: '8AM - 13AM / 17PM - 21PM',
-      socialNetworks: [
-        'https://facebook.com',
-      ],
-      payments: [ ],
-      shareButtons: [
-        'Facebook',
-        'Whatsapp',
-      ],
+      socialNetworks: ['https://facebook.com'],
+      payments: [],
+      shareButtons: ['Facebook', 'Whatsapp'],
       googleAnalyticsId: 'UA-141525658-5',
       //
       // carousel, collection, product
@@ -44,9 +39,9 @@ module.exports = {
           type: 'carousel',
           children: [
             {
-              name: 'Almacen',
+              name: 'Mercado Pago',
               type: 'collection',
-              handle: 'elalmacendecoco',
+              handle: 'mercadopago',
               textColor: 'black',
               textBgColor: 'white',
             },
@@ -56,7 +51,6 @@ module.exports = {
               handle: 'bebidas-sin-alcohol',
               textColor: 'black',
               textBgColor: 'white',
-              link: '/collection/bebidas-sin-alcohol',
             },
             {
               name: 'Fiambre',
@@ -64,7 +58,7 @@ module.exports = {
               handle: 'fiambre',
               textColor: 'black',
               textBgColor: 'white',
-            }
+            },
           ],
         },
         {
@@ -82,16 +76,16 @@ module.exports = {
           textBgColor: 'white',
         },
         {
-          name: 'Mercado Pago',
+          name: 'limpiezaart',
           type: 'collection',
-          handle: 'mercadopago',
+          handle: 'limpiezaart',
           textColor: 'black',
           textBgColor: 'white',
         },
         {
-          name: 'limpiezaart',
+          name: 'Bebidas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ',
           type: 'collection',
-          handle: 'limpiezaart',
+          handle: 'bebidas-con-alcohol',
           textColor: 'black',
           textBgColor: 'white',
         },
@@ -102,7 +96,7 @@ module.exports = {
         type: 'top',
         children: [
           {
-            name: "Almacen",
+            name: 'Almacen',
             type: 'header',
             handle: 'almacen',
             link: '/collection/almacen',
@@ -125,17 +119,16 @@ module.exports = {
                 handle: 'lacteos',
                 link: '/collection/lacteos',
               },
-              
             ],
           },
           {
-            name: "Fiambrería",
+            name: 'Fiambrería',
             type: 'collection',
             handle: 'fiambre',
-            link: '/collection/fiambre', 
+            link: '/collection/fiambre',
           },
           {
-            name: "Bebidas",
+            name: 'Bebidas',
             type: 'header',
             handle: '',
             children: [
@@ -154,34 +147,26 @@ module.exports = {
             ],
           },
           {
-            name: "Limpieza",
+            name: 'Limpieza',
             type: 'collection',
             handle: 'limpiezaart',
             link: '/collection/limpiezaart',
-            },
+          },
           //{ name: 'Blog', type: 'blog', handle: 'news' },
         ],
       }),
       footerLinks: [
         {
-          name: 'About us',
-          link: '/pages/about',
+          name: '',
+          link: '',
         },
         {
           name: 'Políticas de Envío',
           link: '/policy/termsOfService',
         },
         {
-          name: 'Privacy policy',
+          name: 'Políticas de Privacidad',
           link: '/policy/privacyPolicy',
-        },
-        {
-          name: '',
-          link: '',
-        },
-        {
-          name: '',
-          link: '',
         },
       ],
       locales: 'en-US',
