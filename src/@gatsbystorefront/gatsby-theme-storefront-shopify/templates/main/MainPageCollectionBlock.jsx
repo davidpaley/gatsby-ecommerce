@@ -77,14 +77,6 @@ const MainPageCollectionBlock = (props) => {
             }}
           >
             <Box
-              // width={['auto', 1 / 3]}
-              // ml={[1, '5%']}
-              // my= {['auto', '5%']}
-              // backgroundColor={[textBgColor, 'transparent']}
-              // opacity={[0.8, 1]}
-              // px={['3%', 0]}
-              // py={['2%', 0]}
-
               sx={{
                 ml: [1, '5%'],
                 my: ['auto', '5%'],
