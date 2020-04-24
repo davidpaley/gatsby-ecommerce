@@ -96,13 +96,13 @@ module.exports = {
         type: 'top',
         children: [
           {
-            name: 'Almacen',
+            name: 'Almacén',
             type: 'header',
             handle: 'almacen',
             link: '/collection/almacen',
             children: [
               {
-                name: 'Almacen',
+                name: 'Almacén',
                 type: 'collection',
                 handle: 'almacen',
                 link: '/collection/almacen',
