@@ -18,10 +18,10 @@ module.exports = {
   siteMetadata: {
     siteUrl: 'https://demo.gatsbystorefront.com',
     gatsbyStorefrontConfig: {
-      storeName: 'Almacen COCO',
-      storeDescription: 'Un almacen tipico de barrio modernizado',
+      storeName: 'Almacén COCO',
+      storeDescription: 'Un almacén típico de barrio modernizado',
       email: '',
-      company: 'Almacen COCO',
+      company: 'Almacén COCO',
       location: 'Ciudad Autónoma de Buenos Aires, CABA, Argentina',
       address: 'Gándara 3035.',
       phone: '45230921',
@@ -39,13 +39,6 @@ module.exports = {
           type: 'carousel',
           children: [
             {
-              name: 'Mercado Pago',
-              type: 'collection',
-              handle: 'mercadopago',
-              textColor: 'black',
-              textBgColor: 'white',
-            },
-            {
               name: 'Bebidas',
               type: 'collection',
               handle: 'bebidas-sin-alcohol',
@@ -56,6 +49,13 @@ module.exports = {
               name: 'Fiambre',
               type: 'collection',
               handle: 'fiambre',
+              textColor: 'black',
+              textBgColor: 'white',
+            },
+            {
+              name: 'Mercado Pago',
+              type: 'collection',
+              handle: 'mercadopago',
               textColor: 'black',
               textBgColor: 'white',
             },

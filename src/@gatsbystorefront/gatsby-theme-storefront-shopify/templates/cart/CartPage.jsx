@@ -58,14 +58,6 @@ function CartPage() {
 
   const buttonEnabled = checkout.loaded && checkout.lineItems.length > 0;
 
-  const handleClick = () => {
-    if (!buttonEnabled) {
-      return;
-    }
-    localStorage.removeItem('shopifyCheckout');
-    window.location.href = webUrl ;
-  };
-
   return (
     <React.Fragment>
       <Flex my={[3, 4]}>
@@ -139,10 +131,9 @@ function CartPage() {
             <Box p={[1, 3]}>
               <CheckoutButton
                 as={'a'}
-                // href={buttonEnabled && webUrl}
+                href={buttonEnabled && webUrl}
                 variant="primary"
                 px={5}
-                onClick={handleClick}
                 py={3}
                 style={{
                   opacity: buttonEnabled ? 1 : 0.7,
