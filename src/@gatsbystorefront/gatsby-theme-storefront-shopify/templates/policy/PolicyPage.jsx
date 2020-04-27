@@ -14,7 +14,7 @@ const PolicyPage = props => {
         {title}
       </Heading>
       <Flex>
-        <Box pt={40} pl={80}
+        <Box pt={40}
           dangerouslySetInnerHTML={{ __html: body }}></Box>
       </Flex>      
     </Flex>
