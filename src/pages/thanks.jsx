@@ -31,23 +31,11 @@ function Thanks() {
               🛒
             </span>{' '}
           </Text>
-          {/* <Box
-            sx={{
-              px: 4,
-              py: 6,
-              backgroundImage:
-                'url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Check_green_icon.svg/1200px-Check_green_icon.svg.png)',
-              backgroundSize: 'center',
-              borderRadius: 8,
-              maxWidth="3em"
-            }}
-          ></Box> */}
           <Flex mt={4} mb={4} justifyContent="center">
             <Image
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Check_green_icon.svg/1200px-Check_green_icon.svg.png"
               sx={{
                 width: ['20%', '20%'],
-                // borderRadius: 8,
               }}
             />
           </Flex>
